@@ -131,6 +131,11 @@ html, body{
               }
           }
 
+header .one-half {
+  position: absolute;
+  width: 95%;
+}
+
 
  /* BUTTONS */
 .btn {
@@ -326,8 +331,23 @@ html, body{
 
  }
 
+.cta-above-footer {
+
+  position:relative;
+  text-align: center;
+  vertical-align: center;
+  margin: 2em;
+
+}
+
+.cta-above-footer h2 {
+  padding: 2em;
+}
+
+
 
  /* FOOTER */
+
   footer {
     background-color: #34495E;
     background-image: linear-gradient(to top,
@@ -375,7 +395,43 @@ html, body{
    footer .right-footer-block {
      background-color: #3498DB;
    }
-   footer .logo{
+   footer .logo {
      padding: 2em 0 2em 1.5em;
    }
  }
+
+  @media (max-width: 992px) {
+     footer .left-footer-block.one-third {
+       max-width: 33%;
+     }
+   }
+
+   @media (max-width: 992px) {
+      footer .link-block.middle-footer-block.one-third {
+        max-width: 33%;
+      }
+    }
+
+    @media (max-width: 992px) {
+       footer {
+         background-image: none;
+         background-color: #34495E;
+       }
+     }
+
+     @media (max-width: 992px) {
+        footer .right-footer-block {
+          max-width: 33%;
+        }
+      }
+
+      @media (max-width: 992px) {
+         footer .right-footer-block {
+           display: none
+         }
+       }
+
+footer .right-footer-block.one-third {
+
+  float: right;
+}
