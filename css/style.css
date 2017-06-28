@@ -518,6 +518,10 @@ header .one-half {
    margin-top:8px;
  }
 
+ .all-items:active {
+   background-color: #35A3D8;
+ }
+
  /* CONTENT */
  .content {
    padding:6em 1% 1.5em;
