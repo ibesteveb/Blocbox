@@ -518,7 +518,7 @@ header .one-half {
    margin-top:8px;
  }
 
- .all-items:active {
+ .left-nav li.active {
    background-color: #35A3D8;
  }
 
