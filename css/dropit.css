@@ -35,6 +35,13 @@
   border-radius: 4px;
 }
 
+.menu-up.dropit .dropit-submenu {
+  top:auto;
+  right: 0;
+  bottom: 100%;
+  margin: 0px;
+}
+
 .dropit .dropit-open .dropit-submenu:after {
   content: " ";
   position: absolute;
@@ -47,6 +54,14 @@
   top: -8px;
   right: 10px;
  }
+
+ .menu-up.dropit .dropit-open .dropit-submenu:after {
+   top: auto;
+   bottom: -8px;
+   border-width: 8px 8px 0;
+ }
+
+
  .dropit .dropit-open .dropit-submenu li {
   display: block;
   margin-bottom: 20px;

@@ -508,6 +508,14 @@ header .one-half {
    margin-right:8px;
  }
 
+ul.menu-up.menu {
+   margin: 0px;
+ }
+
+ .inner-menu {
+   font-size: 8pt;
+ }
+
  /* LEFT NAVBAR SETTINGS */
  .left-nav .settings {
    position:absolute;
